@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box;
+	text-align: center;
+}
+
+header{
+	background-image: url(../images/beach.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: white;
+}
+
+div#header-div {
+    padding-top: 50px;
+}
+
+h1#name {
+    margin-top: 0;
+}
+
+ul.nav {
+    display: inline-flex;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+
+div#profilePic {
+    text-align: center;
+    margin-top: 20px;
+}
+
+img#laurentPic {
+    border-radius: 50%;
+    width: 250px;
+}
+
+div#skillDiv {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.skill-image-div {
+    width: 20%;
+    /* flex: 1 1 auto; */
+}
+
+
+/*img.skill-icon {
+    width: 10%;
+}*/
