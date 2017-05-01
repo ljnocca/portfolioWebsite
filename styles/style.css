@@ -49,6 +49,10 @@ header {
 	ul.nav {
     flex-wrap: wrap;
 	}
+
+	#projects{
+	flex-wrap: wrap;
+	}
 }
 
 section{
@@ -97,6 +101,16 @@ div#skillDiv {
 .skill-image-div {
     width: 20%;
     margin: 8px;
+}
+
+#projects {
+    display: flex !important;
+}
+
+img.project-img {
+    width: 80%;
+    border: 2px solid black;
+    margin: 2px;
 }
 
 section#about {
