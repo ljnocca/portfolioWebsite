@@ -92,7 +92,7 @@ img#laurentPic {
 
 div#skillDiv {
     display: flex;
-    width: 70%;
+    width: 90%;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
