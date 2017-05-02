@@ -103,6 +103,10 @@ div#skillDiv {
     margin: 8px;
 }
 
+img.skill-icon {
+    max-width: 75%;
+}
+
 #projects {
     display: flex !important;
 }
@@ -111,6 +115,10 @@ img.project-img {
     width: 80%;
     border: 2px solid black;
     margin: 2px;
+}
+
+img.project-img:hover {
+    box-shadow: 0px 0px 10px 7px #4090b5;
 }
 
 section#about {
