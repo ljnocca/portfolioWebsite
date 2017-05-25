@@ -1,7 +1,6 @@
 *{
 	box-sizing: border-box;
 	text-align: center;
-	
 }
 
 html{
@@ -23,36 +22,54 @@ h2, h3, h4, h5, p, a {
 	font-family: 'Taviraj', serif !important;
 }
 
+p{
+    color: black;
+}
+
 header {
-    background-image: url(../images/beach.jpg);
+    background-image: url(../images/clouds.jpg);
     background-attachment: fixed;
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
-    height: 260px;
+    background-position-y: -100px;
+    padding-bottom: 50px;
     color: white;
+}
+
+footer {
+    background-image: url(../images/clouds.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 200px;
+    color: white;
+    padding-top: 30px;
 }
 
 @media only screen and (max-width: 470px) {
     header, footer {
         background-size: cover;
         background-attachment: inherit;
+        background-position: center;
+    }
+    div#header-div {
+        padding-top: 10px !important;
     }
 
     div#social-media {
-    width: 70%;
-    margin: 0 auto;
+        width: 70%;
+        margin: 0 auto;
 	}
 
 	li.loud {
-    margin: 0 auto;
+        margin: 0 auto;
 	}
 
 	ul.nav {
-    flex-wrap: wrap;
+        flex-wrap: wrap;
 	}
 
 	#projects{
-	flex-wrap: wrap;
+	   flex-wrap: wrap;
 	}
 
     form{
@@ -74,7 +91,7 @@ h1#name {
 
 ul.nav {
     display: inline-flex;
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 a.header-aTag {
@@ -127,11 +144,11 @@ img.project-img:hover {
 }
 
 section#about {
-    background: #78A4B4;
+    background: #4c9ee7;
 }
 
 section#general-info{
-	background: #78A4B4;
+	background: #4c9ee7;
 }
 
 img.social-icon {
@@ -173,11 +190,8 @@ input, textarea {
     width: 100% !important;
 }
 
-footer {
-    background-image: url(../images/beach.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    height: 200px;
-    color: white;
-    padding-top: 30px;
+
+
+#heart{
+    color: red;
 }
