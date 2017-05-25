@@ -35,6 +35,7 @@ header {
 @media only screen and (max-width: 470px) {
     header, footer {
         background-size: cover;
+        background-attachment: inherit;
     }
 
     div#social-media {
